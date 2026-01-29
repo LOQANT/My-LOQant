@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My LOQant - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> <!-- Optional: For similar fonts -->
+    <!-- Fallback font if Google Fonts fail -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,7 +24,8 @@
         <section id="hero">
             <h1>Welcome to My LOQant</h1>
             <p>A space for ideas, projects, and creativity.</p>
-            <img src="https://via.placeholder.com/800x400?text=Hero+Image" alt="Hero Image"> <!-- Replace with your image -->
+            <!-- Use a real image or placeholder -->
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hero Image" loading="lazy">
         </section>
 
         <section id="about">
@@ -36,22 +38,22 @@
             <div class="project-grid">
                 <div class="project">
                     <h3>Project 1</h3>
-                    <p>Description of project 1.</p>
-                    <a href="#">View Project</a>
+                    <p>Description of project 1. Built with HTML, CSS, and JS.</p>
+                    <a href="https://github.com/loqant/project1" target="_blank">View on GitHub</a>
                 </div>
                 <div class="project">
                     <h3>Project 2</h3>
-                    <p>Description of project 2.</p>
-                    <a href="#">View Project</a>
+                    <p>Description of project 2. A web app for productivity.</p>
+                    <a href="https://loqant.github.io/project2" target="_blank">Live Demo</a>
                 </div>
-                <!-- Add more projects as needed -->
+                <!-- Add more as needed -->
             </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>Reach out via email or social media.</p>
-            <a href="mailto:loqant@example.com">Email Me</a>
+            <a href="mailto:loqant@example.com" class="btn">Email Me</a>
         </section>
     </main>
 
